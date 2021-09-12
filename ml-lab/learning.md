@@ -4,6 +4,6 @@
 * How to write program:
   1. Importing Packages
   2. Defining a class
-    * Def Fit
-    * Def Predict
-    * Def Evaluate
+      * Def Fit
+      * Def Predict
+      * Def Evaluate
