@@ -3,6 +3,7 @@
 > To implement linear regression in python from scratch using scikit learn
 * How to write program:
   1. Importing modules
+      * cv2
   2. Defining a class
       * Def Fit
       * Def Predict
@@ -13,6 +14,12 @@
   6. Implementing Linear Reg using scikit learn
   7. Result
 
+## Exercise 6
+* AIM:
+> To implement decision tree and random forest classifiers in kyphosis dataset using scikit learn
+* How to write program:
+  1. Importing n loading datasets (kyphosis)
+  2. 
 ## Exercise 10
 * AIM:
 > To implement face detection and tracking using opencv
