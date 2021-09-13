@@ -2,8 +2,11 @@
 * AIM:
 > To implement linear regression in python from scratch using scikit learn
 * How to write program:
+# a)
   1. Importing modules
-      * cv2
+      * pandas
+      * matplotlib.python
+      * numpy
   2. Defining a class
       * Def Fit
       * Def Predict
@@ -19,12 +22,15 @@
 > To implement decision tree and random forest classifiers in kyphosis dataset using scikit learn
 * How to write program:
   1. Importing n loading datasets (kyphosis)
-  2. 
+      * pandas
+      * matplotlib.pyplot
+      * seaborn
 ## Exercise 10
 * AIM:
 > To implement face detection and tracking using opencv
 * How to write program:
   1. Importing modules
+      * cv2
   2. Tracking Face from sample video
       * Reading the frame
       * converting to grayscale
