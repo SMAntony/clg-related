@@ -46,6 +46,12 @@ msort xs = merge (msort (firstHalf xs)) (msort (secondHalf xs))
 firstHalf  xs = let { n = length xs } in take (div n 2) xs
 secondHalf xs = let { n = length xs } in drop (div n 2) xs
 
+--QuickSort
+qsort :: (Ord a) => [a] -> [a]
+qsort [] = []
+qsort (x:xs) = qsort [a | a <- xs, a < x]
+                      ++ [x] ++
+               qsort [b | b <- xs, b >= x]
 --main
 main :: IO()
 main  = do
