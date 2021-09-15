@@ -1,3 +1,4 @@
+--Read and Write
 import Data.Char ( toUpper )
 import System.IO ( IOMode(ReadMode), hGetContents, openFile )
 
